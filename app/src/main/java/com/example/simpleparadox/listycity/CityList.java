@@ -79,6 +79,8 @@ public class CityList {
     }
 
     public void deleteList(){
-
+        for (int i = 0; i<cities.size();i++){
+            cities.remove(i);
+        }
     }
 }
